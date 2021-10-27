@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>HomePage</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d7a9e3ff;">
+        <a class="navbar-brand" href="#">FashionStore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><b>Contact Us</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><b>About Us</b></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-link" href="#"><b>Signup</b></a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#"><b>Login</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+
+            <!-- Filters-->
+            <div class="col-lg-3 p-4 mx-auto">
+                <div class="list-group">
+                    <a href="/" class="list-group-item list-group-item-action"
+                        style="background-color: #8bbee8ff;"><b>All Products</b></a>
+
+                    <a href="/#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: #8bbee8ff;"><b>Clothes-Men</b></a>
+                    <a href="/#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: #8bbee8ff;"><b>Clothes-Women</b></a>
+                    <a href="/#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: #8bbee8ff;"><b>Watches</b></a>
+                    <a href="/#" class="list-group-item list-group-item-action nav-link"
+                        style="background-color: #8bbee8ff;"><b>Shoes</b></a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-9 p-4 mx-auto">
+                <div class='row'>
+
+                    <div class="card mb-3 mx-2" id={{product.id}} style="width: 15rem; ">
+                        <img src="Shirt.png" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">ASCOT-CHECK SLIM FIT MEN SHIRT - MUSTARD</p>
+                            <br>
+                            <p class="card-text"><b>₹ 2500</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add TO Cart</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="T-shirt.png" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">Neck Striped full sleeves T-shirt</p>
+                            <br>
+                            <p class="card-text"><b>₹ 800</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add TO Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="Floral Leafy Foil Kurta set.png" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-title">Floral Leafy Foil Kurta Set</p>
+                            <p class="card-text"><b>₹ 1000</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add TO Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="boat Smart Watch.png" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">Boat Smart Watch Storm Active Black</p>
+                            <br>
+                            <p class="card-text"><b>₹ 2000</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add TO Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="T-Rock Mens Sneaker.png" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">T-Rock Mens Sneaker</p>
+                            <p class="card-text"><b>₹ 3000</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add TO Cart</button>
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
